@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="METHODZ Barber Studio. Modern cuts, professional service, and a premium space in East Los Angeles." />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; script-src 'self'; frame-src https://www.google.com https://maps.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests" />
+  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+  <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+  <meta name="color-scheme" content="dark" />
+  <title>METHODZ Barber Studio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="#home" class="logo" aria-label="Go to METHODZ home">
+      <img src="../images/logo.jpg" alt="METHODZ logo" class="logo-img" />
+      <span>METHODZ</span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="main-nav"
+    >
+      ☰
+    </button>
+
+    <nav class="nav" id="main-nav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#map">Location</a>
+      <a href="#contact">Contact</a>
+      <a href="../index.html" class="lang-link">ES</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero" style="background-image: url('../images/fondo-final.png');">
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">BARBER STUDIO</p>
+        <h1>Good vibes, clean cuts and quality service</h1>
+        <p class="hero-text">
+          A modern space for people who want to look sharp, feel comfortable,
+          and leave with a haircut done right every time.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            href="https://wa.me/13235551234"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+          >
+            Book appointment
+          </a>
+
+          <a href="#services" class="btn btn-secondary">
+            View services
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mini-bar reveal" aria-label="Highlights">
+      <div>Professional service</div>
+      <div>Modern style</div>
+      <div>Comfortable space</div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-heading reveal">
+        <p>Services</p>
+        <h2>What you can find here</h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="card reveal">
+          <h3>Classic haircut</h3>
+          <p>A clean, well-finished haircut for a fresh and professional look.</p>
+          <span>$20</span>
+        </article>
+
+        <article class="card reveal">
+          <h3>Fade</h3>
+          <p>Modern fade with attention to detail and sharp precision on every side.</p>
+          <span>$25</span>
+        </article>
+
+        <article class="card reveal">
+          <h3>Beard</h3>
+          <p>Beard trim and shape-up for a cleaner, more defined look.</p>
+          <span>$15</span>
+        </article>
+
+        <article class="card reveal">
+          <h3>Combo</h3>
+          <p>Haircut and beard in one visit so you walk out fully ready.</p>
+          <span>$35</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="gallery" class="section alt-section">
+      <div class="section-heading reveal">
+        <p>Gallery</p>
+        <h2>Haircuts</h2>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" style="--card-image: url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1200&q=80');">Modern fade</div>
+        <div class="gallery-item reveal" style="--card-image: url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1200&q=80');">Low fade</div>
+        <div class="gallery-item reveal" style="--card-image: url('https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1200&q=80');">Taper fade</div>
+        <div class="gallery-item reveal" style="--card-image: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=80');">Classic cut</div>
+        <div class="gallery-item reveal" style="--card-image: url('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1200&q=80');">Skin fade</div>
+        <div class="gallery-item reveal" style="--card-image: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=1200&q=80');">Shaped beard</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="small-title">About</p>
+          <h2>A place designed to make you feel good from the moment you walk in</h2>
+          <p>
+            At METHODZ, we focus on doing things right: good service,
+            modern cuts, and a space that feels clean, serious, and comfortable.
+          </p>
+          <p>
+            Whether you come in for your weekly haircut or for something important,
+            the goal is for you to leave feeling confident and looking your best.
+          </p>
+        </div>
+
+        <aside class="info-card reveal">
+          <h3>Hours</h3>
+          <p>Monday to Sunday</p>
+          <p>10:00 AM - 8:00 PM</p>
+
+          <h3>Location</h3>
+          <p>4620 Whittier Blvd, East Los Angeles, CA 90022</p>
+
+          <h3>Contact</h3>
+          <p>123-456-7890</p>
+
+          <a
+            href="https://wa.me/13235551234"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary full-btn"
+          >
+            Book on WhatsApp
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <section id="map" class="section alt-section">
+      <div class="section-heading reveal">
+        <p>Location</p>
+        <h2>Find us here</h2>
+      </div>
+
+      <div class="map-card reveal">
+        <iframe
+          src="https://www.google.com/maps?q=4620+Whittier+Blvd,+East+Los+Angeles,+CA+90022&output=embed"
+          loading="lazy"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map of METHODZ Barber Studio"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading reveal">
+        <p>Contact</p>
+        <h2>Book your next visit</h2>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-card reveal">
+          <h3>Phone</h3>
+          <p>123-456-7890</p>
+        </article>
+
+        <article class="contact-card reveal">
+          <h3>Address</h3>
+          <p>4620 Whittier Blvd, East Los Angeles, CA 90022</p>
+        </article>
+
+        <article class="contact-card reveal">
+          <h3>Hours</h3>
+          <p>Mon - Sun | 10am - 8pm</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <a
+    href="https://wa.me/13235551234"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="floating-btn"
+    aria-label="Contact on WhatsApp"
+  >
+    WhatsApp
+  </a>
+
+  <script src="../script.js"></script>
+</body>
+</html>
