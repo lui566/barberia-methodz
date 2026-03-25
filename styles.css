@@ -118,7 +118,7 @@ a {
   align-items: center;
   padding: 0 7%;
   background-image: url("images/fondo-final.png");
-  background-position: center 40% 65%;
+  background-position: center 65%;
   background-repeat: no-repeat;
   background-size: 132%;
 }
@@ -528,7 +528,7 @@ a {
     padding: 0 5%;
     text-align: left;
     background-size: 165%;
-    background-position: center 40% 65%;
+    background-position: center 65%;
   }
 
   .hero-overlay {
